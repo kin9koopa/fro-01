@@ -1,0 +1,13 @@
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+	text-align: justify;
+}
+.bg-red {
+	background: #8d3f3f;
+}
+.bg-light {
+	background: #eae7e7;
+	color: green; /* text-color */
+}
