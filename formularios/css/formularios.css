@@ -1,0 +1,12 @@
+#frm-registro {
+	width: 40%;
+}
+#frm-registro .fila {
+	display: flex;
+	justify-content: space-between;
+}
+#frm-registro .fila .columna {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
