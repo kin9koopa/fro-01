@@ -10,3 +10,35 @@
 	display: flex;
 	flex-direction: column;
 }
+
+#frm-registro .fila-email {
+	display: flex;
+}
+
+#frm-registro .fila-email .user-email {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#frm-registro .fila-address {
+	display: flex;
+}
+#frm-registro .fila-address .user-address {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+#frm-registro .fila-city {
+	display: flex;
+	justify-content: space-between;
+}
+#frm-registro .fila-city .columna-city {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+#frm-registro .btn-submit {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
