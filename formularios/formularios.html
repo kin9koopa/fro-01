@@ -10,7 +10,7 @@
 
 		<!-- 3. Estilos del pagina -->
 		<link rel="stylesheet" href="css/formularios.css" />
-		<title>Formularios Semana 3</title>
+		<title>Formularios Semana 3/4 en clase</title>
 	</head>
 	<body>
 		<main>
@@ -22,17 +22,17 @@
 				</header>
 				<form id="frm-registro">
 					<div class="fila">
-						<div class="columna">
+						<div class="columna-2">
 							<label for="txt-name">First Name</label>
 							<input type="text" placeholder="First Name" id="txt-name" />
 						</div>
-						<div class="columna">
+						<div class="columna-2">
 							<label for="txt-last-name">Last Name</label>
 							<input type="text" placeholder="Last Name" id="txt-last-name" />
 						</div>
 					</div>
-					<div class="fila-normal">
-						<div class="user-input">
+					<div class="fila">
+						<div class="columna">
 							<label for="txt-email">Email Address</label>
 							<input
 								type="email"
@@ -41,31 +41,40 @@
 							/>
 						</div>
 					</div>
-					<div class="fila-normal">
-						<div class="user-input">
+					<div class="fila">
+						<div class="columna">
 							<label for="txt-address">Address Line 1</label>
-							<input
-								type="text"
-								placeholder="Address Line 1"
-								id="txt-address"
-							/>
+							<input type="text" id="txt-address" placeholder="Address" />
 						</div>
 					</div>
-					<div class="fila-3">
-						<div class="columna-3-big">
+					<div class="fila">
+						<div class="columna-3">
 							<label for="txt-city">City</label>
-							<input type="text" placeholder="City" id="txt-city" />
+							<input type="text" id="txt-city" placeholder="City" />
 						</div>
 						<div class="columna-3">
-							<label for="txt-state">State</label>
-							<input type="text" placeholder="State" id="txt-state" />
+							<label for="slt-province">Province</label>
+							<select id="slt-province">
+								<option value="">Select Province</option>
+								<option value="1">San Jose</option>
+								<option value="2">Alajuela</option>
+								<option value="3">Cartago</option>
+								<option value="4">Heredia</option>
+								<option value="5">Puntarenas</option>
+								<option value="6">Limon</option>
+								<option value="7">Guanacaste</option>
+							</select>
 						</div>
 						<div class="columna-3">
 							<label for="txt-zip">Zip Code</label>
-							<input type="text" placeholder="Zip Code" id="txt-zip" />
+							<input type="text" id="txt-zip" placeholder="Zip Code" />
 						</div>
 					</div>
-					<button class="btn-submit">Register</button>
+					<div class="fila">
+						<div class="columna">
+							<button type="button" id="btn-register">Register</button>
+						</div>
+					</div>
 				</form>
 			</section>
 		</main>

@@ -1,87 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-* {
-	font-family: 'Anton';
-}
-main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	flex-direction: column;
-}
-section {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	background-color: bisque;
-	border-radius: 10px;
-	padding: 25px 0px;
-	width: 660px;
-}
-section h2 {
-	padding-bottom: 20px;
-}
-section header {
-	display: flex;
-	width: 75%;
-}
-section header h3 {
-	background-color: #8249a52d;
-	padding: 20px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	border-radius: 5px;
-}
 #frm-registro {
-	width: 70%;
+	width: 40%;
 	margin-top: 20px;
+	border: 2px solid purple;
 }
 #frm-registro .fila {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
 }
 #frm-registro .fila .columna {
-	width: 45%;
 	display: flex;
 	flex-direction: column;
-}
-
-#frm-registro .fila-normal {
-	display: flex;
-}
-
-#frm-registro .fila-normal .user-input {
 	width: 100%;
+}
+#frm-registro .fila .columna-2 {
 	display: flex;
 	flex-direction: column;
+	width: calc(100% / 2.2);
 }
-
-#frm-registro .fila-3 {
-	display: flex;
-	justify-content: space-between;
-}
-#frm-registro .fila-3 .columna-3 {
+#frm-registro .fila .columna-3 {
 	display: flex;
 	flex-direction: column;
-	width: 20%;
-}
-#frm-registro .fila-3 .columna-3-big {
-	display: flex;
-	flex-direction: column;
-	width: 45%;
-}
-#frm-registro .btn-submit {
-	width: 100%;
-	margin-top: 20px;
-	background-color: #8149a5;
-	color: white;
-	text-align: center;
-	border: none;
-	height: 50px;
-}
-input {
-	border-radius: 4px;
-	margin: 8px 0px;
-	height: 30px;
+	width: calc(100% / 3.2);
 }
