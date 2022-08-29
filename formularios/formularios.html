@@ -7,7 +7,12 @@
 		<!-- 1. resets the CSS -->
 		<link rel="stylesheet" href="css/reset.css" />
 		<!-- 2. Estilos externos -->
-
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<!-- 3. Estilos del pagina -->
 		<link rel="stylesheet" href="css/formularios.css" />
 		<title>Formularios Semana 3/4 en clase</title>
@@ -15,12 +20,12 @@
 	<body>
 		<main>
 			<h1>Sign up to the site!</h1>
-			<section>
-				<h2>Koopa506</h2>
-				<header>
-					<h3>Online Event Registration</h3>
-				</header>
+			<h2>Koopa506</h2>
+			<section id="sct-registro">
 				<form id="frm-registro">
+					<header>
+						<h3>Online Event Registration</h3>
+					</header>
 					<div class="fila">
 						<div class="columna-2">
 							<label for="txt-name">First Name</label>
@@ -55,7 +60,7 @@
 						<div class="columna-3">
 							<label for="slt-province">Province</label>
 							<select id="slt-province">
-								<option value="">Select Province</option>
+								<option value="">Province</option>
 								<option value="1">San Jose</option>
 								<option value="2">Alajuela</option>
 								<option value="3">Cartago</option>
@@ -72,7 +77,9 @@
 					</div>
 					<div class="fila">
 						<div class="columna">
-							<button type="button" id="btn-register">Register</button>
+							<button class="btn-morado" type="button" id="btn-register">
+								Register
+							</button>
 						</div>
 					</div>
 				</form>
