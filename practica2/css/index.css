@@ -121,6 +121,7 @@ practica2/css/index.css .sct-top .p-desc .small {
 	font-size: 45px;
 	font-weight: 700;
 	padding-right: 40px;
+	margin-bottom: 40px;
 }
 .sct-bottom .p-bottom .right span {
 	text-decoration: underline;
