@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 24px;
+}
+#boleta {
+	align-items: center;
+	border: 5px solid black;
+	display: flex;
+	flex-direction: column;
+	height: 80vh;
+	justify-content: center;
+}
+#boleta .opciones {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 80%;
+	width: 90%;
+}
+#boleta .opciones .pokemon {
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	font-weight: 900;
+	justify-content: space-evenly;
+	width: 30%;
+	height: 75%;
+}
+#boleta .opciones .pokemon .check {
+	align-items: center;
+	border: 5px solid black;
+	display: flex;
+	height: 25%;
+	width: 40%;
+}
+.squirtle {
+	background: url('../imgs/squirtle.jpg');
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	color: rgb(192, 72, 72);
+}
+.charmander {
+	background: url('../imgs/charmander.jpg');
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	color: #12948d;
+}
+.bulbasaur {
+	background: url('../imgs/bulbasaur.jpg');
+	background-size: cover;
+	color: #db0f90;
+	width: 100%;
+	height: auto;
+}
