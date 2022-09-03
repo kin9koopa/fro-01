@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-weight: 900;
+	font-size: 24px;
+}
+.caja {
+	border: 2px solid rgb(171, 243, 2);
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	width: 15%;
+}
+.verde {
+	background: #a3cb38;
+}
+.amarillo {
+	background: #f0b357;
+	align-self: flex-start;
+}
+.rojo {
+	background: #ea2027;
+	order: -1;
+}
+.azul {
+	background: #0652dd;
+}
+.morado {
+	background: #6f1e51;
+	align-self: flex-end;
+}
+
+#sct-contenedor {
+	/* align-items accomoda los elemntos segun su eje secundario */
+	align-items: center;
+	border: 2px solid #222f3e;
+	height: 100vh;
+	display: flex;
+	/* flex-wrap: wrap; */
+	flex-direction: row;
+	justify-content: space-between; /* Permite acomodar los elementos hijos segun su eje pricipal */
+}
