@@ -9,7 +9,7 @@ html {
 	border: 5px solid black;
 	display: flex;
 	flex-direction: column;
-	height: 80vh;
+	height: 100vh;
 	justify-content: center;
 }
 #boleta .opciones {
@@ -30,7 +30,7 @@ html {
 	font-weight: 900;
 	justify-content: space-evenly;
 	width: 30%;
-	height: 75%;
+	height: 100%;
 }
 #boleta .opciones .pokemon .check {
 	align-items: center;
