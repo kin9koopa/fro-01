@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Work Sans', sans-serif;
+}
+.redes {
+	color: #3d4246;
+	font-weight: bold;
+	text-decoration: underline;
+}
+/* inicio estilos: sect oferta */
+#sct-ofertas {
+	display: flex;
+	margin: 0 auto;
+	padding-top: 40px;
+
+	width: 70%;
+}
+#sct-ofertas .img-container {
+	width: 50%;
+}
+#sct-ofertas .img-container img {
+	width: 100%;
+}
+#sct-ofertas .info {
+	padding-left: 3%;
+	width: 50%;
+}
+#sct-ofertas .info h2 {
+	color: #3d4246;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+#sct-ofertas .info h3 {
+	color: #3d4246;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#sct-ofertas .info p {
+	color: #69727b;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#sct-ofertas .info p span {
+	font-weight: bold;
+}
+
+/* fin estilos: sect oferta */
+/* media queary de sect oferta */
+@media all and (max-width: 992px) {
+	#sct-ofertas {
+		flex-direction: column;
+	}
+	#sct-ofertas .img-container {
+		width: 100%;
+	}
+	#sct-ofertas .info {
+		width: 100%;
+	}
+}
+/* fin media queary de sect oferta */
+
+/* estilos de color blocks */
+#color-blocks {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+}
+#color-blocks .block {
+	align-items: center;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	height: 25vh;
+	justify-content: center;
+	width: 50%;
+}
+.verde {
+	background: green;
+}
+.amarillo {
+	background: yellow;
+}
+.rojo {
+	background: red;
+}
+.morado {
+	background: purple;
+}
+
+/* fin estilos de color blocks */
+/* media queary color block */
+@media all and (max-width: 576px) {
+	#color-blocks {
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#color-blocks .block {
+		width: 100%;
+	}
+	.verde {
+		order: 3;
+	}
+	.amarillo {
+		order: 1;
+	}
+	.rojo {
+		order: 4;
+	}
+	.morado {
+		order: 2;
+	}
+}
+/* fin media queary color block */
