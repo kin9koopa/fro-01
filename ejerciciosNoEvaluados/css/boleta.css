@@ -11,12 +11,17 @@ html {
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
+	margin: 0 auto;
+	width: 80%;
+}
+#boleta h1 {
+	font-size: 40px;
 }
 #boleta .opciones {
 	align-items: center;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: space-between;
 	height: 80%;
 	width: 90%;
 }
@@ -29,7 +34,7 @@ html {
 	font-size: 1.5rem;
 	font-weight: 900;
 	justify-content: space-evenly;
-	width: 30%;
+	width: 60%;
 	height: 100%;
 }
 #boleta .opciones .pokemon .check {
@@ -37,26 +42,12 @@ html {
 	border: 5px solid black;
 	display: flex;
 	height: 25%;
+	justify-content: center;
 	width: 40%;
 }
-.squirtle {
-	background: url('../imgs/squirtle.jpg');
-	background-size: cover;
-	width: 100%;
-	height: auto;
-	color: rgb(192, 72, 72);
-}
-.charmander {
-	background: url('../imgs/charmander.jpg');
-	background-size: cover;
-	width: 100%;
-	height: auto;
-	color: #12948d;
-}
-.bulbasaur {
-	background: url('../imgs/bulbasaur.jpg');
-	background-size: cover;
-	color: #db0f90;
-	width: 100%;
-	height: auto;
+
+@media all and (min-width: 980px) {
+	#boleta .opciones {
+		flex-direction: row;
+	}
 }
